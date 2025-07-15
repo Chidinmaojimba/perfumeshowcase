@@ -1,0 +1,97 @@
+
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:white;
+  padding: 10px 20px;
+  color:black;
+}
+
+.logo {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.blue{
+  color: #01073b;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #01073b;
+}
+.home{
+  background-color: #e1e8f5;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 580px;
+}
+
+.home-intro{
+  margin-top: 60px;
+}
+
+.home-img{
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.home h1{
+  font-size: 48px;
+  line-height: 3rem;
+}
+
+.home h4{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.whatsapp-bttn{
+  background-color: black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color:white;
+  font-size: 20px;
+  padding: 14px;
+  border:none;
+}
+
+.Collection-bttn{
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 13px;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.fa-brands {
+  margin-right: 7px;
+}
+
