@@ -153,6 +153,8 @@ justify-content: center;
 
 .inner-div{
   display: flex;
+  margin-top: 7px;
+  text-align: center;
   /* width: 100%; */
 
 }
@@ -347,6 +349,14 @@ text-align: right; */
 }
 
 
+
+@media(max-width: 576px){
+
+}
+
+@media(max-width: 768px){
+  
+}
 
 
 
