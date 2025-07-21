@@ -154,13 +154,13 @@ justify-content: center;
 .inner-div{
   display: flex;
   margin-top: 7px;
-  text-align: center;
-  /* width: 100%; */
+  justify-content: space-between;
+  width: 100%;
 
 }
 
 .inner-div button{
-  margin-left: 180px;
+  /* margin-left: 180px; */
   border-radius: 0.5rem;
   cursor: pointer;
   font-size: 15px;
@@ -168,7 +168,6 @@ justify-content: center;
   border: none;
   background-color: grey;
   color: white;
-  
 }
 
 .inner-div h1{
@@ -250,25 +249,21 @@ justify-content: center;
 /* text-align: left; */
 }
 
+.inner{
+  display: flex;
+  margin-top:15px;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+}
 .inner h1{
  font-size: 1.875rem;
  line-height: 2.25rem;
 }
 
-.inner p{
-/* width: 100%;
-text-align: right; */
-}
-
-.inner{
-  display: flex;
-  margin-top:15px;
-  text-align: center;
-}
 
 .inner-inner-two{
-  width:100%;
-  text-align: right;
+  width:
 }
 
 
