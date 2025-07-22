@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color:white;
-  padding: 10px 20px;
+  padding: 20px 20px;
   color:black;
 }
 
@@ -36,9 +36,10 @@ body {
   margin-left: 20px;
 }
 
-.nav-links a {
+.nav-links li a {
   text-decoration: none;
   color: black;
+  font-weight: 500;
   transition: color 0.3s;
 }
 
@@ -79,7 +80,7 @@ body {
   border-radius: 0.5rem;
   cursor: pointer;
   color:white;
-  font-size: 20px;
+  font-size: 15px;
   padding: 14px;
   border:none;
 }
@@ -87,7 +88,7 @@ body {
 .Collection-bttn{
   border-radius: 0.5rem;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
   padding: 13px;
   border: 1px solid black;
   margin-left: 10px;
@@ -262,9 +263,9 @@ justify-content: center;
 }
 
 
-.inner-inner-two{
+/* .inner-inner-two{
   width:
-}
+} */
 
 
 
@@ -286,6 +287,8 @@ justify-content: center;
 
 .footer-about, .footer-links  {
   flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer h1 {
@@ -326,6 +329,7 @@ justify-content: center;
   border-top: 1px solid #333;
   font-size: 13px;
 }
+
 .footer-bttn{
   background-color: grey;
   border-radius: 0.5rem;
@@ -335,8 +339,19 @@ justify-content: center;
   padding: 14px;
   border:none;
 }
-.footer-social{
-  display: block;
+
+
+.footer-social, .footer-socials-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social, .footer-links{
+  gap: 15px;
+}
+
+.footer-socials-div{
+  gap: 10px;
 }
 
 .fa-regular{
