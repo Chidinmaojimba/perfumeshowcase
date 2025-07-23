@@ -61,6 +61,9 @@ body {
 .home-img{
     margin-top: 60px;
     border-radius: 10px;
+    width: 457px; 
+    height: 400px;
+      
 }
 
 .home h1{
@@ -97,11 +100,7 @@ body {
 .fa-brands {
   margin-right: 7px;
 }
-/* .collection{
-display: flex;
-align-items: end;
-justify-content: center;
-} */
+
 .collection-text{
   text-align: center;
   margin-top: 80px;
@@ -220,7 +219,7 @@ justify-content: center;
   border-radius: 0.5rem;
   cursor: pointer;
   color:white;
-  font-size: 19px;
+  font-size: 18px;
   padding: 17px;
   border:none;
 }
@@ -235,6 +234,9 @@ justify-content: center;
 
 .about-img{
   border-radius: 10px;
+  /* border-radius="5px"  */
+  width: 465px;
+  height: 490px;
 }
 
 .about-intro h1{
@@ -365,7 +367,35 @@ justify-content: center;
 }
 
 @media(max-width: 768px){
-  
+ .home{
+  flex-direction: column-reverse;
+  height: 850px; 
+ } 
+ 
+ .home-img{
+  width: 410px;
+  height: 370px;
+ }
+ .contact-div{
+  width: 600px;
+ }
+
+ .Collection-bttn{
+  font-size: 15px;
+ }
+
+ .about{
+  flex-direction: column;
+ }
+
+ .about-intro{
+  margin-top: 20px;
+ }
+
+ .about-img{
+  width: 430px;
+  height: 450px;
+ }
 }
 
 
