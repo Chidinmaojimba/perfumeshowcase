@@ -7,7 +7,10 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .navbar {
@@ -58,17 +61,17 @@ body {
   margin-top: 60px;
 }
 
-.home-img{
-    margin-top: 60px;
-    border-radius: 10px;
-    width: 457px; 
-    height: 400px;
-      
+.home-img {
+  margin-top: 60px;
+  border-radius: 10px;
+  width: 457px; 
+  height: 400px;     
 }
 
 .home h1{
   font-size: 48px;
   line-height: 3rem;
+  
 }
 
 .home h4{
@@ -76,6 +79,7 @@ body {
   line-height: 1.75rem;
   margin-top: 15px;
   margin-bottom: 15px;
+  
 }
 
 .whatsapp-bttn{
@@ -368,19 +372,34 @@ body {
 
 @media(max-width: 768px){
  .home{
-  flex-direction: column-reverse;
-  height: 850px; 
+  flex-direction: column;
+  height: fit-content;
+  padding-bottom: 20px; 
  } 
  
  .home-img{
   width: 410px;
   height: 370px;
  }
+
+ .home-intro{
+ }
+
  .contact-div{
   width: 600px;
  }
 
- .Collection-bttn{
+ .home-bttn-container{
+  display: flex;
+  justify-content: center;
+ }
+
+ .home h1,
+ .home h4 {
+  text-align: center;
+ }
+
+ .collection-bttn{
   font-size: 15px;
  }
 
