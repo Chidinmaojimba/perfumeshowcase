@@ -366,9 +366,45 @@ body {
 
 
 
-@media(max-width: 576px){
-
+@media(max-width: 425px){
+ .footer{
+  text-align: center;
 }
+
+.footer-social{
+  text-align: center;
+  }
+
+  .home-img{
+  width: 330px;
+  height: 320px;
+ }
+
+  .contact-div{
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+
+ .contact h1{
+ text-align: center;
+ }
+
+ .contact-bttn{
+  font-size: 15px;
+ }
+
+ .contact-div p{
+  line-height: 1.2em;
+ }
+
+ .about-img{
+  width: 330px;
+  height: 320px;
+ }  
+ }
+
 
 @media(max-width: 768px){
  .home{
@@ -382,8 +418,6 @@ body {
   height: 370px;
  }
 
- .home-intro{
- }
 
  .contact-div{
   width: 600px;
