@@ -11,16 +11,29 @@
     <title>Home - Perfume Showcase</title>
 </head>
 <body>
-    <nav class="navbar">
+  <nav class="navbar">
     <div class="logo">MAXI HUB</div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#collection">Collection</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-      
-    </ul>
+    <div class="nav-side">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <div class="mobile-nav-menu">
+        <button class="menu-bttn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="mobile-nav-links" id="mobile-nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </div>  
   </nav>
+
   <section id="home" class="home">
     <div class="home-intro">
       <h1>Discover Your <br>Perfect Scent</h1>
@@ -211,6 +224,7 @@
     <p>&copy; 2025 Maxihub. All rights reserved.</p>
   </div>
 </footer>
+<script src="script.js"></script>
 
   
 </body>
