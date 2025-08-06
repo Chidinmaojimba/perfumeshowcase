@@ -412,6 +412,12 @@ body {
   color: white;
  }
 
+ .mobile-nav-links li a:hover{
+  background-color: rgb(107, 103, 103);
+  padding: 5px;
+  border-radius: 5px;
+ }
+
  .mobile-nav-menu {
   display: block;
  }
@@ -518,6 +524,12 @@ body {
  .mobile-nav-links li a {
   text-decoration: none;
   color: white;
+ }
+
+ .mobile-nav-links li a:hover{
+  background-color: rgb(107, 103, 103);
+  padding: 5px;
+  border-radius: 5px;
  }
 
  .mobile-nav-menu {
